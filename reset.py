@@ -4,9 +4,9 @@ from time import sleep
 
 def main():
     sleep(1)
-    typewrite("ntfsfix -dev-sda3")
+    typewrite("ntfsfix -dev-sda1")
     press("enter")
-    typewrite("mount -dev-sda3 -mnt")
+    typewrite("mount -dev-sda1 -mnt")
     press("enter")
     typewrite("cd -mnt-Windows-System32-config")
     press("enter")
